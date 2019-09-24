@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407D47F8233A52F600C7B874 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D47F7233A52F600C7B874 /* RxSwift.framework */; };
 		8EADF10C1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF10A1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift */; };
 		8EADF10D1FE5F1310012E4EC /* SKReceiptRefreshRequestDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF10B1FE5F1310012E4EC /* SKReceiptRefreshRequestDelegateProxy.swift */; };
 		DAE432571EFA10390025C54B /* RxSKPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */; };
-		DAE432581EFA10390025C54B /* RxStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE4324F1EFA10390025C54B /* RxStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAE432591EFA10390025C54B /* SKPaymentQueue+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432501EFA10390025C54B /* SKPaymentQueue+Rx.swift */; };
 		DAE4325A1EFA10390025C54B /* SKProductsRequest+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432511EFA10390025C54B /* SKProductsRequest+Rx.swift */; };
 		DAE4325B1EFA10390025C54B /* SKProductsRequestDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432521EFA10390025C54B /* SKProductsRequestDelegateProxy.swift */; };
 		DAE432751EFA13D90025C54B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432741EFA13D90025C54B /* Tests.swift */; };
 		DAE432771EFA13D90025C54B /* RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE432261EFA02FC0025C54B /* RxStoreKit.framework */; };
-		E20EE786B73622AFB8D9E972 /* Pods_RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +29,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit.debug.xcconfig"; sourceTree = "<group>"; };
-		3A2BBEE2898F1BBB4BD00AE2 /* Pods_RxStoreKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStoreKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407D47F7233A52F600C7B874 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		8EADF10A1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKReceiptRefreshRequest+Rx.swift"; sourceTree = "<group>"; };
 		8EADF10B1FE5F1310012E4EC /* SKReceiptRefreshRequestDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKReceiptRefreshRequestDelegateProxy.swift; sourceTree = "<group>"; };
-		B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A85FB6C707F760F3EF0D2D /* Pods-RxStoreKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKitTests/Pods-RxStoreKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit.release.xcconfig"; sourceTree = "<group>"; };
 		DAE432261EFA02FC0025C54B /* RxStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE4324D1EFA10390025C54B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSKPaymentTransactionObserver.swift; sourceTree = "<group>"; };
-		DAE4324F1EFA10390025C54B /* RxStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxStoreKit.h; sourceTree = "<group>"; };
 		DAE432501EFA10390025C54B /* SKPaymentQueue+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPaymentQueue+Rx.swift"; sourceTree = "<group>"; };
 		DAE432511EFA10390025C54B /* SKProductsRequest+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProductsRequest+Rx.swift"; sourceTree = "<group>"; };
 		DAE432521EFA10390025C54B /* SKProductsRequestDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKProductsRequestDelegateProxy.swift; sourceTree = "<group>"; };
 		DAE432721EFA13D80025C54B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE432741EFA13D90025C54B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		DAE432761EFA13D90025C54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2E02EB70C35B3E91D2926EF /* Pods-RxStoreKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKitTests/Pods-RxStoreKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20EE786B73622AFB8D9E972 /* Pods_RxStoreKit.framework in Frameworks */,
+				407D47F8233A52F600C7B874 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,22 +63,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A88561BAF1573FC84CCE282 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */,
-				CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */,
-				C9A85FB6C707F760F3EF0D2D /* Pods-RxStoreKitTests.debug.xcconfig */,
-				F2E02EB70C35B3E91D2926EF /* Pods-RxStoreKitTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		AE5C3E73D84E71A44A5A7ABE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */,
-				3A2BBEE2898F1BBB4BD00AE2 /* Pods_RxStoreKitTests.framework */,
+				407D47F7233A52F600C7B874 /* RxSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,7 +77,6 @@
 				DAE4324C1EFA10390025C54B /* Sources */,
 				DAE432731EFA13D90025C54B /* Tests */,
 				DAE432271EFA02FC0025C54B /* Products */,
-				7A88561BAF1573FC84CCE282 /* Pods */,
 				AE5C3E73D84E71A44A5A7ABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +95,6 @@
 			children = (
 				DAE4324D1EFA10390025C54B /* Info.plist */,
 				DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */,
-				DAE4324F1EFA10390025C54B /* RxStoreKit.h */,
 				DAE432501EFA10390025C54B /* SKPaymentQueue+Rx.swift */,
 				DAE432511EFA10390025C54B /* SKProductsRequest+Rx.swift */,
 				8EADF10A1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift */,
@@ -141,7 +120,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE432581EFA10390025C54B /* RxStoreKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,12 +130,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAE4323A1EFA02FD0025C54B /* Build configuration list for PBXNativeTarget "RxStoreKit" */;
 			buildPhases = (
-				F795DC4C926C42B585C12E6E /* [CP] Check Pods Manifest.lock */,
 				DAE432211EFA02FC0025C54B /* Sources */,
 				DAE432221EFA02FC0025C54B /* Frameworks */,
 				DAE432231EFA02FC0025C54B /* Headers */,
 				DAE432241EFA02FC0025C54B /* Resources */,
-				44EA8191CCC844B846B482D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,14 +169,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Taisuke Fujita";
 				TargetAttributes = {
 					DAE432251EFA02FC0025C54B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = HUVJ3972SJ;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
 					};
 					DAE432711EFA13D80025C54B = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -210,10 +184,11 @@
 			};
 			buildConfigurationList = DAE432201EFA02FC0025C54B /* Build configuration list for PBXProject "RxStoreKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DAE4321C1EFA02FC0025C54B;
 			productRefGroup = DAE432271EFA02FC0025C54B /* Products */;
@@ -242,39 +217,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		44EA8191CCC844B846B482D2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F795DC4C926C42B585C12E6E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAE432211EFA02FC0025C54B /* Sources */ = {
@@ -428,42 +370,48 @@
 		};
 		DAE4323B1EFA02FD0025C54B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HUVJ3972SJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.9revolution9.RxStoreKit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		DAE4323C1EFA02FD0025C54B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HUVJ3972SJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.9revolution9.RxStoreKit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
